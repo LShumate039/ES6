@@ -12,6 +12,12 @@ const testVar = (params) => {
 
     if(true){
         var a = 50; 
-        console.log(`Block `)
+        console.log(`Block Logged: ${a}`);
     }
+    console.log("here: " +a);
 }
+
+
+
+testVar();
+console.log(`END Logged: ${a}`); 
